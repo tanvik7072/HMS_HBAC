@@ -1,4 +1,5 @@
 # HMS - Harmful Brain Activity Classification
+
 This repository contains code for classifying harmful brain activity using electroencephalography (EEG) signals recorded from critically ill hospital patients. This is the submission for Harvard Medical School's Human Brain Activity Classification competition hosted on Kaggle. 
 
 The EEG segments in the dataset have been annotated by experts, resulting in six patterns of interest: seizure, generalized periodic discharges (GPD), lateralized periodic discharges (LPD), lateralized rhythmic delta activity (LRDA), generalized rhythmic delta activity (GRDA), or "other". The dataset includes patterns and edge cases with varying levels of expert agreement.
