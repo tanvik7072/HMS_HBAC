@@ -8,7 +8,7 @@ The code includes signal processing, feature extraction, data preparation, train
 
 A bandpass filter was used to isolate the frequencies present in an EEG recording, which lie between 0.1 Hz and 50 Hz. Furthermore, a notch filter was used to remove powerline noise. 
 
-##Statistics used as a proxy for the features of the signal:
+## Statistics used as a proxy for the features of the signal:
 
 1. Mean: Central tendency of the signal, this may be higher in seizures and GPD due to higher overall activity, whereas thet might be slightly lower in GRDA and LRDA due to the presence of slow delta activity. Might also reflect asymmetry in LPD and LRDA.
 2. Standard deviation: Variability of the signal around the mean: this may be higher in seizures to due drastic changes in amplitude, as well as in LRDA, LPD and GPD.
