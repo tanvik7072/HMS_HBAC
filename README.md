@@ -6,7 +6,9 @@ The EEG segments in the dataset have been annotated by experts, resulting in six
 
 The code includes signal processing, feature extraction, data preparation, training of a machine learning classifier, and a sanity check. The goal is to improve the efficiency and accuracy of EEG pattern classification, benefiting neurocritical care, epilepsy management, and drug development.
 
-A bandpass filter was used to isolate the frequencies present in an EEG recording, which lie between 0.1 Hz and 50 Hz. Furthermore, a notch filter was used to remove powerline noise. 
+## Signal processing
+1. A bandpass filter was used to isolate the frequencies present in an EEG recording, which lie between 0.1 Hz and 50 Hz.
+2. A notch filter was used to remove powerline noise. 
 
 ## Statistics used as a proxy for the features of the signal:
 
