@@ -18,7 +18,7 @@ The code includes signal processing, feature extraction, data preparation, train
 4. Variation: Measure of spread, higher in seizures due to more drastic and frequent changes, as well as in GPD, LRDA and LPD.
 The minimum and maximum values of the signal: assessment of amplitude.
 5. Square root of the signal
-6. Skew: Asymmetry of the distribution, positive in seizures due to asymmetry compared to baseline activity, but also seen in LRDA and LPD as these are lateralised.
+6. Skew: Asymmetry of the distribution, seen in LRDA and LPD as these are lateralised.
 7. Kurtosis: Peakedness/flatness of the signal, may be higher in seizure due to more peaks.
 
 These features were then used for model training. An 81.4% prediction accuracy was achieved by the trained model.
