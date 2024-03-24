@@ -8,15 +8,15 @@ The code includes signal processing, feature extraction, data preparation, train
 
 A bandpass filter was used to isolate the frequencies present in an EEG recording, which lie between 0.1 Hz and 50 Hz. Furthermore, a notch filter was used to remove powerline noise. 
 
-Statistics used as a proxy for the features of the signal:
+##Statistics used as a proxy for the features of the signal:
 
-Mean: Central tendency of the signal, this may be higher in seizures and GPD due to higher overall activity, whereas thet might be slightly lower in GRDA and LRDA due to the presence of slow delta activiy. Might also reflect asymmetry in LPD and LRDA.
-Standard deviation: Variability of the signal around the mean: this may be higher in seizures to due drastic changes in amplitude, as well as in LRDA, LPD and GPD.
-Peak-to-peak amplitude: difference between the highest and lowest points in the data. Likely to be higher in seizures due to more drastic changes in amplitude.
-Variation: Measure of spread, higher in seizures due to more drastic and frequent changes, as well as in GPD, LRDA and LPD.
+1. Mean: Central tendency of the signal, this may be higher in seizures and GPD due to higher overall activity, whereas thet might be slightly lower in GRDA and LRDA due to the presence of slow delta activity. Might also reflect asymmetry in LPD and LRDA.
+2. Standard deviation: Variability of the signal around the mean: this may be higher in seizures to due drastic changes in amplitude, as well as in LRDA, LPD and GPD.
+3. Peak-to-peak amplitude: difference between the highest and lowest points in the data. Likely to be higher in seizures due to more drastic changes in amplitude.
+4. Variation: Measure of spread, higher in seizures due to more drastic and frequent changes, as well as in GPD, LRDA and LPD.
 The minimum and maximum values of the signal: assessment of amplitude.
-Square root of the signal
-Skew: Asymmetry of the distribution, positive in seizures due to asymmetry compared to baseline activity, but also seen in LRDA and LPD as these are lateralised.
-Kurtosis: Peakedness/flatness of the signal, may be higher in seizure due to more peaks.
+5. Square root of the signal
+6. Skew: Asymmetry of the distribution, positive in seizures due to asymmetry compared to baseline activity, but also seen in LRDA and LPD as these are lateralised.
+7. Kurtosis: Peakedness/flatness of the signal, may be higher in seizure due to more peaks.
 
 These features were then used for model training. An 81.4% prediction accuracy was achieved by the trained model.
